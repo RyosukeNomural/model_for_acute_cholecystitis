@@ -6,7 +6,7 @@ Jupyter notebooks used for the analyses in the manuscript. Each notebook contain
 
 | Directory | Figure | Notebook | Content |
 |---|---|---|---|
-| `image_model/` | Fig. 2 | `20261024_image_model_revice.ipynb` | Image model (EfficientNetB0) trained on one representative CT slice per patient. Evaluation on the representative slice and on all gallbladder slices of each test patient (hybrid TotalSegmentator masks; a patient is positive if any slice is positive), Grad-CAM, and 95% confidence intervals. |
+| `image_model/` | Fig. 2 | `20261024_image_model_revice_with_95ci.ipynb` | Image model (EfficientNetB0) trained on one representative CT slice per patient. Evaluation on the representative slice and on all gallbladder slices of each test patient (hybrid TotalSegmentator masks; a patient is positive if any slice is positive), Grad-CAM, and 95% confidence intervals. |
 | `blood_model/` | Fig. 3 | `20261024_fig3_blood_model_revice_with_95ci.ipynb` | Blood-test model (10 blood tests, PyCaret extra trees) with the 7:3 train/test split, and 95% confidence intervals. |
 | `hybrid_model/` | Fig. 4 | `20261024_fig4_hybrid_model_revice_with_95ci.ipynb` | Hybrid model (blood tests + image features from the image model, reduced by PCA fitted on the training data only), evaluated on all gallbladder slices of each test patient, and 95% confidence intervals. |
 | `supple/` | Supplementary | `20261022_fig4_5fold_cv_hybrid.ipynb` | Five-fold cross-validation of the hybrid model with the algorithm selected and tuned within each training fold (nested). |
