@@ -12,6 +12,9 @@ Jupyter notebooks used for the analyses in the manuscript. Each notebook contain
 | `supple/` | Supplementary | `20261022_fig4_5fold_cv_hybrid.ipynb` | Five-fold cross-validation of the hybrid model with the algorithm selected and tuned within each training fold (nested). |
 | | | `20261022_fig3_5fold_cv_blood.ipynb` | Five-fold cross-validation of the blood-test model: nested algorithm selection, and the algorithm fixed to random forest. |
 | | | `20261022_fig3_blood_only_et_5fold_cv.ipynb` | Five-fold cross-validation of the blood-test model with the algorithm fixed to extra trees. |
+| | | `20261025_model_comparison_delong_mcnemar_en.ipynb` | Pairwise comparison of the Imaging, Blood and Hybrid Models on
+the same test-set patients: AUCs by DeLong's test, and accuracy, sensitivity and specificity by the exact McNemar test (Hol
+m-adjusted p-values). |
 
 ## Study cohort and evaluation
 
