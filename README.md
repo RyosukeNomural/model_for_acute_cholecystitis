@@ -24,7 +24,7 @@ Jupyter notebooks used for the analyses in the manuscript. Each notebook contain
 
 - Python 3.10
 - Image model: TensorFlow 2.16, scikit-learn, OpenCV, nibabel
-- Blood-test and hybrid models: PyCaret 3.3.2 (Python 3.9–3.11)
+- Blood-test and hybrid models: PyCaret 3.3.2 (Python 3.10)
 - Gallbladder segmentation: TotalSegmentator
 
 ## Data availability
